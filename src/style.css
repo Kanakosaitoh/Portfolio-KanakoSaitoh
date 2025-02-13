@@ -3,6 +3,9 @@
   --secondary-color: #d8d7dd;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+body {
+  font-family: poppins;
+}
 .hero {
   text-align: center;
   background: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
@@ -21,14 +24,17 @@ h1 {
   font-size: 68px;
 }
 h2 {
-  font-size: 50px;
+  font-size: 48px;
   font-family: poppins;
 }
 h3 {
   margin-bottom: 40px;
   font-family: poppins;
 }
-
+p {
+  line-height: 1.5;
+  opacity: 0.8;
+}
 .primary-link {
   color: var(--primary-color);
   text-decoration: none;
@@ -43,7 +49,22 @@ h3 {
   text-align: center;
   margin-top: 60px;
 }
-
+.btn-branding {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+.shiatsu-photo {
+  width: 500px;
+  padding-left: 45px;
+}
+.garden-photo {
+  width: 500px;
+  height: 1000px;
+}
+.weather-photo {
+  width: 500px;
+  padding-left: 45px;
+}
 @media (max-width: 960px) {
   .hero {
     padding: 0;
