@@ -2,13 +2,14 @@
   --primary-color: #d268f2;
   --secondary-color: #d8d7dd;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --background: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
 }
 body {
   font-family: poppins;
 }
 .hero {
   text-align: center;
-  background: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+  background: var(--background);
 }
 .logo {
   color: var(--primary-color);
@@ -53,6 +54,12 @@ p {
   background-color: var(--primary-color);
   color: #ffffff;
 }
+.shiatsu-project,
+.gardening-project,
+.weather-project {
+  font-family: playfair display;
+}
+
 .shiatsu-photo {
   width: 500px;
   padding-left: 45px;
@@ -65,7 +72,11 @@ p {
   width: 500px;
   padding-left: 45px;
 }
+
 @media (max-width: 960px) {
+  body {
+    text-align: center;
+  }
   .hero {
     padding: 0;
     text-align: center;
@@ -82,5 +93,10 @@ p {
   h3 {
     font-size: 18px;
     padding: 20px;
+  }
+  .shiatsu-project,
+  .gardening-project,
+  .weather-project {
+    padding: 0;
   }
 }
