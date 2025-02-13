@@ -3,7 +3,7 @@
   --secondary-color: #d8d7dd;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-.homepage-top {
+.hero {
   display: block;
   margin: 40 auto;
   padding: 120px;
