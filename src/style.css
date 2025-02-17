@@ -29,8 +29,8 @@ h2 {
   font-family: playfair display;
 }
 h3 {
-  margin-bottom: 20px;
   font-family: poppins;
+  line-height: 1.5;
 }
 h4 {
   font-size: 40px;
@@ -40,7 +40,6 @@ h5 {
   margin: 30px;
 }
 p {
-  line-height: 1.5;
   opacity: 0.8;
 }
 .my-name {
@@ -57,10 +56,7 @@ p {
   background-color: var(--primary-color);
   color: #ffffff;
 }
-.content {
-  margin-top: 20px;
-  text-align: left;
-}
+
 .shiatsu-project,
 .gardening-project,
 .weather-project {
