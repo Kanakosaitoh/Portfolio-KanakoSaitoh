@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Portfolio Kanako Saitoh, Front-end devepoer located in Burnaby, Canada. her projects, contact and about her"
+      content="Portfolio Kanako Saitoh, Front-end developer located in Burnaby, Canada. Her projects, contact and about her"
     />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -57,16 +57,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">Home</a>
+              <a class="nav-link active" aria-current="page" href="/" title="homepage">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html">About me</a>
+              <a class="nav-link" href="/about.html" title="about me">About me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/projects.html">Projects</a>
+              <a class="nav-link" href="/projects.html" title="my projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contact.html">Contact</a>
+              <a class="nav-link" href="/contact.html" title="contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -74,12 +74,12 @@
     </nav>
     <div class="hero">
       <h2 class="my-name pt-5 text-center">Hi, I am</h2>
-      <h1 class="text-center"><strong>Kanako Saitoh</strong></h1>
+      <h1 class="text-center" ><strong>Kanako Saitoh</strong></h1>
       <h3 class="text-center">
         Front-end Developer based in Burnaby, BC, Canada
       </h3 class="text-center">
       
-      <a href="/index.html#projects.html" class="primary-link btn p-3 mt-4 mb-5 bg-body rounded border border-white">
+      <a href="/projects.html" title="my projects" class="primary-link btn p-3 mt-4 mb-5 bg-body rounded border border-white">
         See my projects
       </a>
       
@@ -99,12 +99,12 @@
           <p class="mt-5 mb-5">
              Shiatsu Therapy project has it's history, contact and about shiatsu. 
           </p>
-          <a href="" class="btn btn-branding ">
+          <a href="/projects.html#shiatsu" class="btn btn-branding ">
             Learn more
           </a>
         </div>
         <div class="col d-none d-lg-block mt-4">
-          <img class="img-fluid shiatsu-photo"src="/images/shiatsu.png" />
+          <img class="img-fluid shiatsu-photo" alt="shiatsu-photo" src="/images/shiatsu.png" />
 
         </div>
       </div>
@@ -113,7 +113,7 @@
     <div class="container mt-5">
       <div class="row ">
         <div class=" col d-none d-lg-block mt-4">
-          <img class="img-fluid garden-photo"src="/images/garden.png" />
+          <img class="img-fluid garden-photo"src="/images/garden.png" alt="gardning-photo"/>
         </div>
         <div class="col mt-5">
           <h2 class="gardening-project">
@@ -122,7 +122,7 @@
           <p class="mt-5 mb-5">
              Gardening project has it's history, contact and about shiatsu. 
           </p>
-          <a href="" class="btn btn-branding ">
+          <a href="/projects.html#gardening" class="btn btn-branding" title="gardening-project">
             Learn more
           </a>
         </div>
@@ -131,23 +131,46 @@
 
     <div class="container mt-5">
       <div class="row">
-        <div class="col mt-5">
+        <div class="weather-app col mt-5">
           <h2 class="weather-project">
             Weather app Project
           </h2>
           <p class="mt-5 mb-5">
              Weather app project has it's history, contact and about shiatsu. 
           </p>
-          <a href="/projects.html" class="btn btn-branding ">
+          <a href="/projects.html#weather-app" class="btn btn-branding" title="weather-app">
             Learn more
           </a>
         </div>
         <div class="col d-none d-lg-block mt-4">
-          <img class="img-fluid weather-photo"src="/images/weather.png" />
-
+          <img class="img-fluid weather-photo"src="/images/weather.png" alt="weather-app photo"/>
         </div>
       </div>
     </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="poem-app col mt-5">
+          <img src="/images/poem.png" class="img-fluid rounded shadow-sm" alt="ai poem app" />
+          <h3 class="text-center">Poem generator app project</h3>
+          <p class="text-muted text-center">
+            Built with HTML, CSS, Java Script and AI API
+          </p>
+        </div>
+        <div class="ai-poem-app col mt-5">
+          <h2 class="ai-poem-project">
+            AI Canadian Poem App Project
+          </h2>
+          <p class="mt-5 mb-5">
+             AI poem app project generates a Canadian 4-short-line poem using a topic you enter. 
+          </p>
+          <a href="/projects.html#poem-app" class="btn btn-branding" title="ai poem app photo">
+            Learn more
+          </a>
+        </div>
+      </div>
+    </div>  
+      
     <footer class="">
       <div class="inquiry-box d-flex justify-content-between">
         <div>
@@ -155,21 +178,22 @@
           <p class="muted">Let's talk</p>
         </div>
         <div>
-          <a href="mailto:kanakosaitoh@yahoo.ca" class="btn btn-contact-me p-4 border rounded">
+          <a href="mailto:kanakosaitoh@yahoo.ca" class="btn btn-contact-me p-4 border rounded"
+          title="my email address">
             Contact me
           </a>
         </div>
       </div>
 
-      <a href="mailto:kanakosaityoh@yahoo.ca" class="email-link">
+      <a href="mailto:kanakosaityoh@yahoo.ca" class="email-link" title="my email address">
         kanakosaitoh@yahoo.ca
       </a>
 
       <div class="social-links m-4">
-        <a href="">
+        <a href="https://github.com/Kanakosaitoh" title="Kanako Saitoh GitHub account profile">
           <i class="github-icon fa-brands fa-github"> </i>
         </a>
-        <a href="">
+        <a href="https://www.linkedin.com/in/kanako-saitoh-914192266/" title="Kanako Saitoh Linked in account">
           <i class="linkedin-icon fa-brands fa-linkedin px-3" href=""></i>
         </a>
       </div>
